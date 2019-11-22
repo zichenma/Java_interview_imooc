@@ -9,7 +9,7 @@ public class RunnableDemo {
         Thread t2 = new Thread(mr2);
         Thread t3 = new Thread(mr3);
         t1.start(); // same as thread
-        t2.start();
+        t2.start(); // Runnable is a interface
         t3.start();
     }
 }
