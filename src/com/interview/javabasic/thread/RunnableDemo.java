@@ -8,7 +8,7 @@ public class RunnableDemo {
         Thread t1 = new Thread(mr1);
         Thread t2 = new Thread(mr2);
         Thread t3 = new Thread(mr3);
-        t1.start();
+        t1.start(); // same as thread
         t2.start();
         t3.start();
     }
